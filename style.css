@@ -5,10 +5,19 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Playfair Display','Poppins', 'Source Sans Pro', sans-serif;
 }
 body{
     height: 100vh;
 }
+
+.icon {
+    width: 24px;
+    height: 24px;
+    filter: invert(1); 
+  }
+
+  
 
 .container{
     display: grid;
@@ -24,12 +33,43 @@ body{
     
 }
 
-.dashboard{
-    background-color: #0c4126;
-    grid-row: 1/3;
-}
 
 .content{
     background-color: #f9f3e3
 }
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.text{
+    font-size: 20px;
+}
+.dashboard{
+    background-color: #0c4126;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 50px;
+}
+.dashboardcontainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.dashboard .title,
+.dashboard .text{
+    color: #e5ddc5;
+}
+
+
+.middle-group,
+.bottom-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+}
+
 
