@@ -20,12 +20,12 @@ body{
     grid-column: 2/3;
     background-color: #e5ddc5;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    /*z-index: 10;*/
-    margin-bottom: 1px;
+    z-index: 10;
+    
 }
 
 .dashboard{
-    background-color: rgb(16, 43, 23);
+    background-color: #0c4126;
     grid-row: 1/3;
 }
 
