@@ -16,7 +16,9 @@ body{
     height: 24px;
     filter: invert(1); 
   }
-
+.header .icon{
+    filter:invert(0);
+}
   
 
 .container{
@@ -25,13 +27,7 @@ body{
     grid-template-columns: 1fr 5fr;
     height: 100%;
 }
-.header{
-    grid-column: 2/3;
-    background-color: #e5ddc5;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    z-index: 10;
-    
-}
+
 
 
 .content{
@@ -72,4 +68,40 @@ body{
   gap: 16px; 
 }
 
+
+.header{
+    grid-column: 2/3;
+    background-color: #e5ddc5;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 30px;
+}
+
+.topheaderleft{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+input{
+    background-color: rgb(205, 214, 203);
+    width: 80%;
+    height: 60%;
+    border: none;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 9999px;
+    outline: none;
+    padding: 12px 20px;
+    
+}
+.topheaderright{
+    grid-column: 2/3;
+}
+.bottomheaderright{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
 
