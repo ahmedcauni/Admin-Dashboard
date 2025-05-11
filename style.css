@@ -139,6 +139,14 @@ input{
 }
 
 button{
-    padding: 15px 20px;
-    background-color: #0c4126;
+    padding: 12px 30px;
+    background-color: #0f5731;
+    color: #e5ddc5;
+    font-weight: bold;
+    border: none;
+    border-radius: 9999px;
 }
+
+button:hover {
+    background-color: #00b351;         
+  }
