@@ -260,3 +260,10 @@ button:hover {
     gap: 30px;
 }
 
+.user .title{
+    font-size: 17px;
+}
+
+.user .text{
+    font-size: 14px;
+}
